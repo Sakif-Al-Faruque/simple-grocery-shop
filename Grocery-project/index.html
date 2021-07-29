@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Bud</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <section class="section-center">
+        <!-- form -->
+        <form class="grocery-form">
+            <p class="alert"></p>
+            <h3 class="fs-3 text-success">Grocery Bud</h3><br>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" id="grocery" placeholder="e.g. potato">
+                <button type="submit" class="submit-btn btn btn-outline-success">Submit</button>
+            </div>
+        </form><br><br>
+        <!-- list -->
+        <div class="grocery-container">
+            <div class="grocery-list">
+                <article class="grocery-item row">
+                    <p class="title col-9 text-secondary fs-5">item</p>
+                    <div class="button-container col-3">
+                        <button type="button" class="edit-btn text-primary"><i class="fas fa-edit"></i></button>
+                        <button type="button" class="delete-btn text-danger"><i class="fas fa-trash-alt"></i></button>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <!-- clear button -->
+        <button type="button" class="clear-btn btn btn-outline-danger">Clear Button</button>
+    </section>
+
+    <!-- javascript -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/script.js"></script> 
+</body>
+</html>

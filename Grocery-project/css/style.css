@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.section-center{
+    height: 500px;
+    width: 400px;
+    background: #F2F7F2;
+    text-align: center;
+    margin: auto auto;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    box-sizing: border-box;
+    padding: 15px 15px;
+    border-radius: 25px;
+    box-shadow: 0 0 30px #2d3142;
+}
+
+.section-center .grocery-container{
+    height: 40%;
+}
+
+.section-center .grocery-container .button-container button{
+    border: none;
+    font-size: 1.2rem;
+}
+
+.clear-btn{
+    margin-top: 20px;
+    visibility: hidden;
+}
+
+.alert-danger{
+    background: rgb(223, 72, 72);
+    color: black;  
+}
+
+.alert-success{
+    background: rgb(84, 233, 129);
+    color: rgb(247, 247, 247);  
+}
